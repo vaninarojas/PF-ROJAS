@@ -1,0 +1,35 @@
+.imgfooter{width: 80%;height: auto; border-radius: 10px;}
+
+.colorfooter{  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: brown;}
+
+    footer{background-image: linear-gradient(to top, grey, white);}
+
+    .ig {
+        width: 35%;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      .igcontacto {
+        width: 50%;
+        height: auto;
+        border-radius: 10px;
+      }
+  
+
+      .scale{
+    
+        transition: all 1s;
+        &:hover {
+         transform: scale(1.2,1.2);
+        }
+     }
+
+     .logoadrfooter{width: 50%;height: auto; border-radius: 15px;}
+
+     .rrss, .contacto{font-size: 20px; color: brown;}
+
+      .mail,.num{color: black;}
+
+   

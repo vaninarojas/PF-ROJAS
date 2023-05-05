@@ -1,0 +1,53 @@
+@media(min-width:1024px) {
+    .imginicio{max-width:100%; height: 900px; border-radius: 10px;}
+
+    .bienve{font-size: 50px;}
+
+    .imgsati{width:100%; max-height: 700px; border-radius: 10px; object-fit: cover}
+
+    .imgrestau{width:100%;max-height: 900px; border-radius: 10px;}
+
+    .nav-item{font-size: 25px;}
+
+    .nos3{width: 100%;height: 500px; border-radius: 20px;}
+
+    
+//GRID Y FLEX EN CONTACTO//
+
+
+header{display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
+
+    li{list-style-type: none ; padding: 10px;margin: 10px;}
+
+    li{display: inline;}
+
+    a{text-decoration: none;color: black; font-size: 20px;}
+
+    li:hover{
+        font-size: 20px;
+        background-color:  rgb(187, 186, 186);
+        padding: 10px;
+        border-radius: 20px;}
+    
+.footercontacto{display: flex;
+    flex-direction: row; 
+    justify-content: space-around;}
+
+    .gridcontacto{
+        display: grid;
+        grid-template-areas: 
+        "encabezado encabezado"
+        "form infoContacto" 
+        "form  iframe";
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto;}
+    
+
+    .encabezadoContacto{grid-area: encabezado;}
+    .form{grid-area: form;}
+    .infoContacto{grid-area: infoContacto;}
+    .iframe{grid-area: iframe;}}
+
+    
