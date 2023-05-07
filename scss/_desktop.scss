@@ -19,13 +19,13 @@ header{display: flex;
     flex-direction: row;
     justify-content: space-between;}
 
-    li{list-style-type: none ; padding: 10px;margin: 10px;}
+    .li{list-style-type: none ; padding: 10px;margin: 10px;}
 
-    li{display: inline;}
+    .li{display: inline;}
 
     a{text-decoration: none;color: black; font-size: 20px;}
 
-    li:hover{
+    .li:hover{
         font-size: 20px;
         background-color:  rgb(187, 186, 186);
         padding: 10px;

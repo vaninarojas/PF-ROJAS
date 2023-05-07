@@ -23,13 +23,13 @@
         align-items: center;
         justify-content: space-between;}
 
-        li{list-style-type: none ; padding: 3px; margin: 3px; display: flex; 
+        .li{list-style-type: none ; padding: 3px; margin: 3px; display: flex; 
             justify-content: center;}
     
      a{text-decoration: none;color: black; 
         font-size: 10px;}
     
-    li:hover{
+    .li:hover{
         color: rgb(3, 3, 85);
         font-size: 20px;
         background-color: rgb(187, 186, 186);
